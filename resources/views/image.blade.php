@@ -75,14 +75,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Wogsland Photos
+                    <img src="/images/popsicle.jpg" title="Uh oh! It looks like this image is broken." width=600>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="/">Home</a>
-                    <a href="/image">Popsicle</a>
-                    <a href="https://github.com/wogsland/photos.wogsland.org">GitHub</a>
+                  <a href="/">Home</a>
+                  <a href="https://github.com/wogsland/photos.wogsland.org">GitHub</a>
                 </div>
             </div>
         </div>
