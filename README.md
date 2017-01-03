@@ -5,6 +5,10 @@ Basically this is a photo site for personal photos that I am building from with
 
 ## Setup
 
+Install the composer packages (in the project root directory):
+
+    composer install
+
 Add the following to `/etc/apache2/extra/httpd-vhosts.conf` to enable the virtual
 host and then restart apache:
 
@@ -33,7 +37,10 @@ Then change up permissions for logging (in the project root directory):
     sudo chown -R _www storage
     sudo chown -R _www bootstrap/cache/
 
-more on configuration [here](https://laravel.com/docs/master#configuration).
+more on configuration [here](https://laravel.com/docs/master#configuration). And
+you may also need to
+
+    php artisan key:generate
 
 ## License
 
