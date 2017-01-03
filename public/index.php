@@ -49,6 +49,11 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
+//$request = Illuminate\Http\Request::capture();
+//echo '<pre>';print_r($request);
+
+//echo method_exists($kernel, 'handle') ? 'method exists' : 'no existe';
+
 $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
